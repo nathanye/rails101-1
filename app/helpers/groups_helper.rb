@@ -1,5 +1,5 @@
 module GroupsHelper
   def render_group_description(group)
-    simple_formati(group.description)
+    simple_format(group.description)
   end
 end
